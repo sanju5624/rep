@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="api.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>STUDENT MANAGEMENT SYSTEM</h2>
+    <div class="div">
+        <input type="text" placeholder="Roll_No" id="rollno">
+        <input type="text" placeholder="Name" id="name">
+        <input type="number" placeholder="Age" id="age">
+        <input type="text" placeholder="Course" id="course">
+        <button type="submit">Add Student</button>
+    </div>
+    <table border="1" id="studentList">
+        <thead>
+            <tr>
+                <th class="a">Roll_No</th>
+                <th class="a">Name</th>
+                <th class="a">Age</th>
+                <th class="a">Course</th>
+                <th class="a">Action</th>
+              </tr>
+        </thead>
+        <tbody id="t-body"></tbody>
+      </table>
+      <script src="api1.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.div{
+    display: flex;
+    justify-self: center;
+}
+input{
+    margin: 12px;
+    padding: 12px;
+    justify-content: space-evenly;
+    width: 12%;
+    margin-left: 90px;
+    border-radius: 7px;
+}
+button{
+    cursor: pointer;
+    margin: 12px;
+    padding: 12px;
+    justify-content: space-evenly;
+    width: 12%;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 7px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+thead{
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    justify-content: space-evenly;
+    margin-left: 90px;
+}
